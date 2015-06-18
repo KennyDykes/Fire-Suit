@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/name">
+
+    <EditText
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/name_editText"
+        android:textColor="#ffe42103"
+        android:layout_gravity="center_vertical" />
+
+    <ImageButton
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:background="@drawable/send"
+        android:id="@+id/comeon"
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout>

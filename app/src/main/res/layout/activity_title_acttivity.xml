@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    tools:context="com.example.kenny.myapplication.Rescue_Me"
+    android:id="@+id/rlayout">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exit"
+        android:background="@drawable/exit"
+        android:clickable="true"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/mapping"
+        android:layout_alignLeft="@+id/mapping"
+        android:layout_alignStart="@+id/mapping" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/track"
+        android:background="@drawable/tracker"
+        android:clickable="true"
+        android:cropToPadding="true"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/mapping"
+        android:layout_alignStart="@+id/mapping" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mapping"
+        android:clickable="true"
+        android:background="@drawable/mappp"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/track"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
